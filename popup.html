@@ -25,6 +25,12 @@
     </div>
     <ul id="bookmarkList"></ul>
     <script src="browser-polyfill.js"></script>
+    <script>
+      console.log(
+        "browser-polyfill.js loaded, browser defined:",
+        typeof browser !== "undefined"
+      );
+    </script>
     <script src="popup.js"></script>
   </body>
 </html>

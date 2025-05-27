@@ -3,9 +3,12 @@
   "name": "Bookmark Organizer",
   "version": "1.0",
   "description": "A tool to save, tag, and search bookmarks quickly",
-  "permissions": ["bookmarks", "storage", "tabs"],
+  "permissions": ["bookmarks", "storage", "tabs", "activeTab"],
   "action": {
     "default_popup": "popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' https://unpkg.com; object-src 'self'"
   },
   "browser_specific_settings": {
     "gecko": {
