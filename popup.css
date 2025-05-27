@@ -1,0 +1,81 @@
+body {
+  width: 300px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+#search {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#showAddForm {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: black; /* Set background to black */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#showAddForm:hover {
+  background-color: #333; /* Slightly lighter black/gray for hover */
+}
+#bookmarkList {
+  list-style: none;
+  padding: 0;
+}
+#bookmarkList li {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#bookmarkList button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 3px 6px;
+  cursor: pointer;
+}
+#bookmarkList button:hover {
+  background-color: #c82333;
+}
+#addForm {
+  margin-bottom: 10px;
+}
+#bookmarkTitle,
+#bookmarkTags {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#saveBookmark,
+#cancelBookmark {
+  padding: 5px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#saveBookmark {
+  background-color: #28a745;
+  color: white;
+}
+#saveBookmark:hover {
+  background-color: #218838;
+}
+#cancelBookmark {
+  background-color: #6c757d;
+  color: white;
+}
+#cancelBookmark:hover {
+  background-color: #5a6268;
+}

@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Bookmark Organizer",
+  "version": "1.0",
+  "description": "A tool to save, tag, and search bookmarks quickly",
+  "permissions": ["bookmarks", "storage", "tabs"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

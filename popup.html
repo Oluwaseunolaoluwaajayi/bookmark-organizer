@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmark Organizer</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <input
+      type="text"
+      id="search"
+      placeholder="Search bookmarks by title or tag"
+    />
+    <button id="showAddForm">Add Current Page</button>
+    <div id="addForm">
+      <input type="text" id="bookmarkTitle" placeholder="Bookmark title" />
+      <input
+        type="text"
+        id="bookmarkTags"
+        placeholder="Tags (comma-separated)"
+      />
+      <button id="saveBookmark">Save</button>
+      <button id="cancelBookmark">Cancel</button>
+    </div>
+    <ul id="bookmarkList"></ul>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+# Ignore temporary files and editor settings
+*.log
+.DS_Store
+.vscode/ 
