@@ -8,12 +8,6 @@
     "default_popup": "popup.html"
   },
   "content_security_policy": {
-    "extension_pages": "script-src 'self' https://unpkg.com; object-src 'self'"
-  },
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "bookmark-organizer@yourdomain.com",
-      "strict_min_version": "57.0"
-    }
+    "extension_pages": "script-src 'self'; object-src 'self'"
   }
 }
